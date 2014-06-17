@@ -2,7 +2,7 @@ package exextr2014;
 
 /**
  *
- * @author dc1314daw2@gmail.com
+ * @author enalbu1314daw2@gmail.com
  */
 
 import java.util.Date;
@@ -26,6 +26,7 @@ public class ExExtr2014 {
                 DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
                 Date date = new Date();
                 bw.write(dateFormat.format(date));bw.newLine();
+                bw.write("<br>");bw.write("Identificaci&oacute;: Enrique Alfonso ");bw.newLine();
                 bw.write("  </body>");bw.newLine();
                 bw.write("</html>");bw.newLine();
                 bw.close();              
